@@ -31,16 +31,20 @@ I again performed the same steps listed above but instead of just spend and impr
 Immediately after I ran the regression I notices the large p-value of duration (.93). As a result, it was clear to me that duration would have no statistically significant impact on imppressions, so I elected to again run a multi variable regression to look only at spend and country in relation to impressions.
 
 ##### Multi Variable Regression - spend and country only
+I ran the linear regression which resulted in the following equation: impressions = 397spend+17,533country+56,767. It is worth noting that the results for any regressions using country may be skewed for the country variable because I randomly labeled each country with a number and the data set did not have any information regarding number of, or percentage of users in each country. As a result, it is not relevant to say that an increase of 1 in a country about have a effect because you would then just be talking about a different country.
 
+However, this equation would mean that the effect of spend would be the same as in the first, single variable regression. The p-value for country is .455 which is above the accepted standard of 0.05, so the data is not statistically significant. The p-value seems 
 
 #### Not a Linear Regression - but still interesting insight
 
-I was really interested in which countries have the most political ads and no surprise, the US had significantly more impressions than any other company (approximately 15x the next closest country)
+I was really interested in which countries have the most political ads and no surprise, the US had significantly more impressions than any other company (approximately 15x the next closest country). It is difficult to see which coutry is second from the first chart but when only comparing non-US countries, Australia is a clear standout. This mihgt be useful for candidates to see where they get the most traction and even business owners is this is a sample of a larger trend
 
 ![](https://github.com/kamccarren/Impressions-as-a-function-of-spend-duration-country/blob/master/Total%20Impressions%20by%20Country.png)
 
 ![](https://github.com/kamccarren/Impressions-as-a-function-of-spend-duration-country/blob/master/Impressions%20by%20non-US%20Country.png)
 
+Overall, it was fascinating to see what factors most heavily influence impressions, an end goal for many media marketers. Spend has the highest correlation with 58% followed by country and then duration.
+
 Data set was obtained from https://www.snap.com/en-US/political-ads/. <Snapchat Political Ads Library>
 
-Excel data can be found:  <Github>
+Excel data can be found: https://github.com/kamccarren/Impressions-as-a-function-of-spend-duration-country/blob/master/McCarren%20Mini%20Project%202%20Final.xlsx <Github>
