@@ -4,7 +4,7 @@
 
 I chose to look at the Snapchat election advertising data. Although I actually deleted my Snapchat and do not generally view it as a news source, I thought it would be interesting to look at election advertising with the primaries upon us.
 
-I decided to investigate what factors influence the number of impressions and how they do so. Given the data set, I only had a few numerical options that I could look at, so I chose spend, duration and country. For spend, how closely correlated are money and number of impressions? Are some ads more popular for reasons beyond advertising costs? For duration, I wanted to see how the duration affected the number of impressions: would it be linear or would there be a drop off after the ad had been playing for a long time? Finally, I was curious to see how different countries spent money on ads, particularly since this data was focused on election advertising data.
+I decided to investigate what factors influence the number of impressions and how they do so. Given the data set, I only had a few numerical options that I could look at, so I chose spend, duration and country. For spend, how closely correlated are money and number of impressions? I assumed that there would be a strong correlation because more spending yould mean that Snapchat displays the ad more.  For duration, I wanted to see how the duration affected the number of impressions: would it be linear or would there be a drop off after the ad had been playing for a long time? I assumed that overall, a longer duration means more time for ads to be seen and therefore more impressions. Finally, I was curious to see how different countries spent money on ads, particularly since this data was focused on election advertising data.
 
 I chose to make a simple linear regression comparing spend with impressions. I also 
 
@@ -12,13 +12,18 @@ I chose to make a simple linear regression comparing spend with impressions. I a
 1. First I needed to synthesize the data
 2. Spearated dates and times for both start and end dates in different columns (Data, text to columns, delimited)
 3. The end date column has several empty cells so I treated those as present day and filled in 2/27/20
-4. 
+4. To look at countries, I assigned each of the 12 countries a number so that I could perform a linear regression analaysis.
 
 ##### Impact of Spend on Impressions
 
-![](https://github.com/kamccarren/comparing-racial-and-economic-make-up-of-chicago-and-baltimore/blob/master/Teen%20Births:Pregnancies.png)
+First I conducted a single variable linear regression to look at the impact of spend on impressions. I assumed that more money spent likely meant more impressions. 
 
-##### Female Income
+I ran a linear regression and came up with the equation: impressions = 397.11xspend+97,755
+This would mean that a $400 increase in spend would lead to a corresponding $158,800 increase in impressions, leading to total 158,800 impressions 
+
+![](https://github.com/kamccarren/Impressions-as-a-function-of-spend-duration-country/blob/master/Impressions%20by%20Spend.png)
+
+##### 
 
 ![](https://github.com/kamccarren/comparing-racial-and-economic-make-up-of-chicago-and-baltimore/blob/master/Projected%20Female%20Income.png)
 
