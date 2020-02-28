@@ -27,14 +27,19 @@ Overall, spend is not a great predictor of impressions, soit is important to eva
 
 ![](https://github.com/kamccarren/Impressions-as-a-function-of-spend-duration-country/blob/master/Impressions%20by%20Spend.png)
 
-##### 
+##### Multi Variable Regression - spend, duration and country
 
-![](https://github.com/kamccarren/comparing-racial-and-economic-make-up-of-chicago-and-baltimore/blob/master/Projected%20Female%20Income.png)
 
-##### Two Parent Household
 
-![](https://github.com/kamccarren/comparing-racial-and-economic-make-up-of-chicago-and-baltimore/blob/master/Two%20Parent%20Household.png)
+##### Multi Variable Regression - spend and country only
+
+
+#### Not a Linear Regression - but still interesting insight
+
+![](https://github.com/kamccarren/Impressions-as-a-function-of-spend-duration-country/blob/master/Impressions%20by%20Spend.png)
+
+![](https://github.com/kamccarren/Impressions-as-a-function-of-spend-duration-country/blob/master/Total%20Impressions%20by%20Country.png)
 
 Data set was obtained from https://www.snap.com/en-US/political-ads/. <Snapchat Political Ads Library>
 
-Excel data can be found:  <Google Drive>
+Excel data can be found:  <Github>
