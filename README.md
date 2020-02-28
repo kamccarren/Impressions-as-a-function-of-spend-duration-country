@@ -36,9 +36,9 @@ Overall, spend is not a great predictor of impressions, soit is important to eva
 
 #### Not a Linear Regression - but still interesting insight
 
-![](https://github.com/kamccarren/Impressions-as-a-function-of-spend-duration-country/blob/master/Impressions%20by%20Spend.png)
-
 ![](https://github.com/kamccarren/Impressions-as-a-function-of-spend-duration-country/blob/master/Total%20Impressions%20by%20Country.png)
+
+![](https://github.com/kamccarren/Impressions-as-a-function-of-spend-duration-country/blob/master/Impressions%20by%20non-US%20Country.png)
 
 Data set was obtained from https://www.snap.com/en-US/political-ads/. <Snapchat Political Ads Library>
 
