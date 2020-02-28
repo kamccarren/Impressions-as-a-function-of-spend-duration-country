@@ -1,5 +1,3 @@
-# Impressions-as-a-function-of-spend-duration-country
-
 # miniproject2 - Impressions as a function of spend, duration, and country
 
 I chose to look at the Snapchat election advertising data. Although I actually deleted my Snapchat and do not generally view it as a news source, I thought it would be interesting to look at election advertising given the excitement of the primaries. I decided to look at the 2020 data since it would be the newest and most relevant
@@ -28,13 +26,16 @@ Overall, spend is not a great predictor of impressions, soit is important to eva
 ![](https://github.com/kamccarren/Impressions-as-a-function-of-spend-duration-country/blob/master/Impressions%20by%20Spend.png)
 
 ##### Multi Variable Regression - spend, duration and country
+I again performed the same steps listed above but instead of just spend and impressions, I chose to include days of duration and country to see their respective effects on impressions.
 
-
+Immediately after I ran the regression I notices the large p-value of duration (.93). As a result, it was clear to me that duration would have no statistically significant impact on imppressions, so I elected to again run a multi variable regression to look only at spend and country in relation to impressions.
 
 ##### Multi Variable Regression - spend and country only
 
 
 #### Not a Linear Regression - but still interesting insight
+
+I was really interested in which countries have the most political ads and no surprise, the US had significantly more impressions than any other company (approximately 15x the next closest country)
 
 ![](https://github.com/kamccarren/Impressions-as-a-function-of-spend-duration-country/blob/master/Total%20Impressions%20by%20Country.png)
 
